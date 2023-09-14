@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+#fundo {
+    background-color:  #b54b4b;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#fundo h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inputs { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+#task {
+    width: 300px;
+    text-align: center;
+    
+}
+#type {
+    text-align: center;
+}
+
+#fundoTask {
+    background-color: rgb(201, 191, 191);
+    width: 80%;
+    height: 400px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+li {
+    list-style-type: none; 
+    margin-top: 20px;
+    margin-left: 5px;
+    font-size: 30px;
+    color: white;
+    
+}
